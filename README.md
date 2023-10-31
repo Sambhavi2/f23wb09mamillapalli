@@ -1,2 +1,9 @@
 # f23wb09mamillapalli
-good
+Class: IceCream
+
+Attributes:
+flavour(String)
+size(String)
+price(number)
+
+
