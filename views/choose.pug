@@ -2,7 +2,7 @@ extends layout
 
 block content
   h1= title
-   - var image_names = ["icecream1.jpg","icecream2.jpg","icecream3.jpg","icecream4.jpg","icecream5.jpg"]
+   - var image_names = ["icecream1.jpeg","icecream2.jpeg","icecream3.jpg","icecream4.jpeg","icecream5.jpg"]
   - for(let i=0;i<3;i++){
      - let random= Math.floor(Math.random()*5)
      img(src=`/images/${image_names[random]}` alt=`Image No ${random}` height="300px" width="300px")
